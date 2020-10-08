@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Curriculum Vitae</title>
+  <meta name="description" content="CV de Enrique Rodríguez May">
+  <meta name="keywords" content="CV, HTML,CSS,JavaScript">
+  <meta name="author" content="Enrique Rodríguez May">
+</head>
+
+<body>
+  <ul>
+    <li><a href='#experiencia'>Experiencia profesional</a></li>
+    <li><a href='#habilidades'>Habilidades y conocimientos</a></li>
+    <li><a href='#educacion'>Educación</a></li>
+    <li><a href='#perfilsocial'>Perfiles Sociales</a></li>
+    <li><a href='#contactame'>Contáctame</a></li>
+  </ul>
+
+  <h1>Enrique Rodríguez May</h1>
+  <!--Resumen-->
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora in facilis optio repudiandae nihil veniam atque?
+    Harum, iusto. A maxime sequi sit ullam recusandae doloremque, numquam officiis id veritatis tempore.</p>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis expedita, officia dolorum veritatis optio earum
+    voluptatum reprehenderit deserunt est et quam id repellendus distinctio quis. Et nisi quae autem quam! Eaque
+    laboriosam, laborum officiis explicabo natus repellat repudiandae nostrum sint.</p>
+
+  <hr>
+
+  <h2 id="experiencia">Experiencia Profesional</h2>
+  <table>
+    <tr>
+      <th>Empresa/Organización</td>
+      <th>Cargo</td>
+      <th>Localización</td>
+      <th>Desde - Hasta</td>
+    </tr>
+    <tr>
+      <td>IBM</td>
+      <td>Jefe de Sistemas</td>
+      <td>Ciudad de México</td>
+      <td>Diciembre 2018 - Actualidad</td>
+    </tr>
+    <tr>
+      <td>Oracle</td>
+      <td>Administrador de Base de Datos</td>
+      <td>Guadalajara, Jalisco</td>
+      <td>Septiembre 2014 - Noviembre 2018</td>
+    </tr>
+    <tr>
+      <td>Microsoft</td>
+      <td>Consultor</td>
+      <td>Ciudad de México</td>
+      <td>Julio 2013 - Agosto 2014</td>
+    </tr>
+    <tr>
+      <td>Logística, Ingeniería y Sistemas, S.A. de C.V.</td>
+      <td>Lider de Proyecto</td>
+      <td>Monterrey, Nuevo León</td>
+      <td>Febrero 2010 - Junio 2013</td>
+    </tr>
+  </table>
+
+  <hr>
+
+  <h2 id="habilidades">Habilidades y Conocimientos</h2>
+
+  <ul>
+    <li><strong>Desarrollo web:</strong> HTML5, CSS3, JavaScript,Bootstrap, Adobe XD, React JS, Angular JS</li>
+    <li><strong>Analítica web:</strong> Google Analytics</li>
+    <li><strong>Gestión:</strong> SCRUM, gestión de comunidades y administración de eventos, gestión de la información
+    </li>
+    <li><strong>Emprendimiento:</strong> Startups</li>
+    <li><strong>Aplicaciones móviles:</strong> Android, React Native.</li>
+    <li><strong>Otras Aplicaciones:</strong> Adobe Photoshop, Adobe Illustrator</li>
+  </ul>
+
+  <hr>
+
+  <h2 id="educacion">Educación</h2>
+
+  <table>
+    <tr>
+      <th>Titulo</th>
+      <th>Cédula Profesional</th>
+      <th>Escuela</th>
+      <th>Periodo</th>
+    </tr>
+    <tr>
+      <td>Máster en Tecnologías de Internet</td>
+      <td>1654317</td>
+      <td>Universidad Aútonoma de Guadalajara Campus Tabasco</td>
+      <td>2012-2014</td>
+    </tr>
+    <tr>
+      <td>Especialidad en Seguridad de Cómputo</td>
+      <td>6534317</th>
+      <td>Universidad Aútonoma de Nuevo León</td>
+      <td>Enero 2012-Junio 2012</td>
+    </tr>
+    <tr>
+      <td>Ingeniero en Sistemas Computacionales</td>
+      <td>1306582</td>
+      <td>Tecnológico de Monterrey</td>
+      <td>2008-2011</td>
+    </tr>
+  </table>
+
+  <hr>
+
+  <h2 id="perfilsocial">Perfiles sociales</h2>
+
+  <p>Para mayor información, puedes contáctarme en:</p>
+
+  <ul>
+    <li><a href="https://github.com/FrontEndDoers" target="_blank">GitHub</a></li>
+    <li><a href="https://www.facebook.com/FrontEndDoer" target="_blank">Facebook</a></li>
+    <li><a href="https://mx.linkedin.com/" target="_blank">Linkedin</a></li>
+    <li><a href="https://www.youtube.com/channel/UCREANzEKutMd49rvWs_9KUw" target="_blank">YouTube</a></li>
+  </ul>
+
+  <hr>
+
+  <h2 id="contactame">Contáctame</h2>
+
+  <form action="miScript.js" method="GET">
+    <label for="to">Para:</label>
+    <input id="to" type="email">
+
+    <label for="topic">Temática</label>
+    <select id="topic" name="topic">
+      <option>--Elige un Tema--</option>
+      <option value="propuesta">Propuesta</option>
+      <option value="reporte">Reporte</option>
+      <option value="otro">Otro</option>
+    </select>
+
+    <label for="subject">Asunto:</label>
+    <input id="subject" name="subject" type="text">
+
+    <label for="body">Contenido:</label>
+    <textarea id="body" name="body"></textarea>
+
+    <button type="submit">Enviar</button>
+  </form>
+
+  <hr>
+
+  <p>&copy; Mi CV. Todos los derechos reservados 2020 | FrontEndDoers</p>
+</body>
+
+</html>
